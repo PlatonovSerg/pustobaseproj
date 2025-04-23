@@ -1,0 +1,15 @@
+# Go
+/bin/
+/pkg/
+*.exe
+*.test
+*.out
+
+# Editor & System
+.DS_Store
+.idea/
+*.swp
+
+# Database & Env
+*.sqlite3
+.env

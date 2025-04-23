@@ -8,3 +8,7 @@ type Player struct {
 	EncryptedPlayerID string `gorm:"size:255;not null;uniqueIndex"`
 	CreatedAt         int64  `gorm:"autoCreateTime"`
 }
+
+func (Player) TableName() string {
+	return "players"
+}
